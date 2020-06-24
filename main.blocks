@@ -1,0 +1,240 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="XSDOQ$BD/sTv)P@#5wGO">Player</variable><variable type="KIND_SpriteKind" id="a-r2p6bI~,rF4]ERJoDo">Projectile</variable><variable type="KIND_SpriteKind" id="7RRJNczNMX.dub7AFP7x">Food</variable><variable type="KIND_SpriteKind" id="*LrAX~FXY-H?MEm]x,R?">Enemy</variable><variable type="KIND_SpriteKind" id="EQ4Qya@;aaV-U1oxEy=x">Tool</variable><variable type="KIND_SpriteKind" id="!WmX]W5IB$v/DK!oCNVG">Hand</variable><variable type="KIND_SpriteKind" id="E)U$jz*nxes8rsMo]J$N">HeldTool</variable><variable type="BLOCKLY_TILESET_TYPE" id="FNkh*iJwmY1}r+}jVl0q">0;16;16;0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</variable><variable type="BLOCKLY_TILESET_TYPE" id="Jo3J^7^Dy(yhCY+oNli:">1;16;16;0000000000000000e00e00b0bb000e00b0eeeeeeeeeeee0eb0eeeeeeeeeeee0eb0eeeeeeeeeeee0ee0eeeeeeeeeeee00e0eeeeeeeeeeee0000ebeeeeeeeeee0e0eebeeeeeeeeee0b00ebeeeeeeeeee0b00eeeeeeeeeeee0be0eeeeeeeeeeee0bb0eeeeeeeeeeee0be0eeeeeebeebee0eb00e00ee0000e00e00000e0000000000</variable><variable type="BLOCKLY_TILESET_TYPE" id="#24b($H.i^F)?0?Sqg|u">2;16;16;0000000000000000e00e00b0bb000e00b0eeeeeeeeccee0eb0eeecceececcc0eb0eeecceccccec0ee0eeccccccccec00e0eececc78c7ec0000ebcecc87c7ec0e0eebcecc8cccec0b00ebcec8ccccec0b00eececcccccec0be0eecceeecccec0bb0eeeeeeeeeeee0be0eeeeeebeebee0eb00e00ee0000e00e00000e0000000000</variable><variable type="BLOCKLY_TILESET_TYPE" id="d:]Pz1hJ88bm1*U*YDU%">3;16;16;0000000000000000e00e00b0bb000e00b0eeeeeeeeeeee0eb0eeeeeeeeeeee0eb0eeeeeeeeeeee0ee0eedeeeebdeee00e0eeeeee7eeeee0000ebee7ee7eeee0e0eebeeeee7eeee0b00ebbeceeceeee0b00eeeeeeeedeee0be0eeedeeeeeeee0bb0eeeeeeeeeeee0be0eeeeeebeebee0eb00e00ee0000e00e00000e0000000000</variable><variable type="BLOCKLY_TILESET_TYPE" id="}a*v*pcbx7@r3H0oL7v)">4;16;16;0000000000000000e00e00b0bb000e00b0eeeeeeeeeeee0eb0eeeeeeeeeeee0eb0eeeeeeeeeeee0ee0eedee77bd7ee00e0eeee7e77eeee0000ebee7e77eeee0e0eebeeeee7eeee0b00ebbeceeceeee0b00eeeeeeeedeee0be0eeedeeeeeeee0bb0eeeeeeeeeeee0be0eeeeeebeebee0eb00e00ee0000e00e00000e0000000000</variable><variable type="BLOCKLY_TILESET_TYPE" id="K@lPvQ{(u[5d_?|_jP8{">5;16;16;0000000000000000e00e00b0bb000e00b0eeeeeeeeeeee0eb0eececcccccee0eb0eeccecccccec0ee0eedec77bd7ec00e0eece7878eecc0000ebce7c77cccc0e0eebee8ce7ecec0b00ebbcccccccee0b00eeccccccceee0be0eecdccccccee0bb0eeeecceeeeee0be0eeeeeebeebee0eb00e00ee0000e00e00000e0000000000</variable><variable type="BLOCKLY_TILESET_TYPE" id="b@)bIw|@Kg`{3KJ04z!V">6;16;16;0000000000000000e00e00b0bb000e00b0eeeeeeeeeeee0eb0eeeeeeeeeeee0eb0ee7eee7777ee0ee0ee7e7777d7ee00e0eeee7677eeee0000ebee7767eeee0e0eebee6e77eeee0b00ebbece67eeee0b00eeeeeee6deee0be0eeedeeeeeeee0bb0eeeeeeeeeeee0be0eeeeeebeebee0eb00e00ee0000e00e00000e0000000000</variable><variable type="BLOCKLY_TILESET_TYPE" id="D{``::9hj,)A(R|n(`=-">7;16;16;0000000000000000e00e00b0bb000e00b0eeeeeeeeeeee0eb0eeccccccccee0eb0ee7cce7777ee0ee0ee7c7777d7ee00e0eecc7677c8ec0000ebcc7767c8ee0e0eebcc6877c8ee0b00ebbccc67ccee0b00eeccccccdcee0be0eecdccccccee0bb0eececceeceee0be0eeeeeebeebee0eb00e00ee0000e00e00000e0000000000</variable><variable type="BLOCKLY_TILESET_TYPE" id="|p{)2le4M$n_msCQKF03">8;16;16;0000000000000000e00e00b0bb000e00b0eeeeeeeeeeee0eb0eeee777777ee0eb0ee7e666676ee0ee0ee66777766e700e07e77666667e700006b77766767e70e0e6b67776667e70b006b67677666e70b007e67767776e70be0ee77666676ee0bb0eeee777777ee0be0eeee7e7777ee0eb00e00ee0000e00e00000e0000000000</variable><variable id="m9)3waIb*lg%!2ODM*$)">Greg</variable><variable id="]]__zve@*f=wBbB^Us%Y">hoe</variable><variable id="u$UKRp0^{NEbE3H?s5e?">watering can</variable><variable id="EzP71Dp#v*c6NUW/rlqN">mySprite</variable><variable id="j~3[:8CF+0FEMR7:86,p">Greg's Left Hand</variable><variable id="$E%P?)#R2Y(J,1=!GybN">Greg's Right Hand</variable><variable id="ueMCtrl32]B3Wo@BGVTC">Left Tool</variable><variable id="YKJ$[iub6_CPNE_N.P3!">Right Tool</variable><variable id="QKgdc7%CcK?l7fP[eh{=">item</variable><variable id="]lE,GzHVVuI^X/4DpK_c">currentTool</variable><variable id="/rcqbe{{O2jAz#(*ZBFV">myEnemy</variable><variable id="sF=LNIF:jM7UMbpBz9in">seed bag</variable><variable id="Ji*L2s1i3?3jhvW]n^mN">value</variable><variable id="bpWhgw/=5Lms6.4#mNW*">list</variable><variable id="UJP{$7PMSPI$_Ri*t+`q">sprite list</variable><variable id="*Q!0Q_0XPM1Z3dGZ4#EV">harvester</variable></variables><comment x="1776" y="24" h="284.9626770019531" w="347.581298828125">Stages for growing:
+  Tilling
+  Planting seeds
+  Watering (on repeat)
+  Waiting (on repeat)
+  Harvest
+
+Left: 4,8
+Right: 13,6</comment><block type="pxt-on-start" x="140" y="0"><statement name="HANDLER"><block type="gamesetbackgroundcolor"><value name="color"><shadow type="colorindexpicker"><field name="index">13</field></shadow></value><next><block type="tilemap_editor"><field name="tilemap">tiles.createTilemap(
+            hex`1000100000000000000000000000000000000000000000000000000000000000000000000000010100000000000000000000000000000101000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000`,
+            img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`,
+            [myTiles.tile0,myTiles.tile1,myTiles.tile2,myTiles.tile3,myTiles.tile4,myTiles.tile5,myTiles.tile6,myTiles.tile7,myTiles.tile8],
+            TileScale.Sixteen
+        )</field><next><block type="variables_set"><field name="VAR" id="m9)3waIb*lg%!2ODM*$)">Greg</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . . . 1 1 . . 1 1 . . . 
+. . . . . . 1 1 3 . 1 1 3 . . . 
+. . . . . . 1 3 . 1 1 3 . . . . 
+. . . . . . 1 . . 1 . . . . . . 
+. . . . . . 1 1 1 1 1 . . . . . 
+. . . . . . 1 f 1 f 1 . . . . . 
+. . . . . . 1 1 1 1 1 . . 1 . . 
+. . . . 1 1 1 1 1 1 1 1 1 1 . . 
+. . . . 1 . 1 1 1 1 1 . . . . . 
+. . . . . . 1 1 1 1 1 . . . . . 
+. . . . . . 1 1 1 1 1 . . . . . 
+. . . . . . . 1 . . 1 . . . . . 
+. . . . . . . 1 . . 1 . . . . . 
+. . . . . . . 1 . . 1 . . . . . 
+. . . . . . 1 1 . 1 1 . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="variables_set"><field name="VAR" id="j~3[:8CF+0FEMR7:86,p">Greg's Left Hand</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+3 3 
+3 3 
+`</field></shadow></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">Hand</field></shadow></value></block></value><next><block type="variables_set"><field name="VAR" id="$E%P?)#R2Y(J,1=!GybN">Greg's Right Hand</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . . . 1 1 . . 1 1 . . . 
+. . . . . . 1 1 3 . 1 1 3 . . . 
+. . . . . . 1 3 . 1 1 3 . . . . 
+. . . . . . 1 . . 1 . . . . . . 
+. . . . . . 1 1 1 1 1 . . . . . 
+. . . . . . 1 f 1 f 1 . . . . . 
+. . . . . . 1 1 1 1 1 . . 1 . . 
+. . . . 1 1 1 1 1 1 1 1 1 1 . . 
+. . . . 1 . 1 1 1 1 1 . . . . . 
+. . . . . . 1 1 1 1 1 . . . . . 
+. . . . . . 1 1 1 1 1 . . . . . 
+. . . . . . . 1 . . 1 . . . . . 
+. . . . . . . 1 . . 1 . . . . . 
+. . . . . . . 1 . . 1 . . . . . 
+. . . . . . 1 1 . 1 1 . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow><block type="screen_image_picker"><field name="img">img`
+3 3 
+3 3 
+`</field></block></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">Hand</field></shadow></value></block></value><next><block type="spritesetsetflag"><field name="flag">SpriteFlag.Invisible</field><value name="sprite"><block type="variables_get"><field name="VAR" id="j~3[:8CF+0FEMR7:86,p">Greg's Left Hand</field></block></value><value name="on"><shadow type="toggleOnOff"><field name="on">true</field></shadow></value><next><block type="spritesetsetflag"><field name="flag">SpriteFlag.Invisible</field><value name="sprite"><block type="variables_get"><field name="VAR" id="$E%P?)#R2Y(J,1=!GybN">Greg's Right Hand</field></block></value><value name="on"><shadow type="toggleOnOff"><field name="on">true</field></shadow></value><next><block type="variables_set"><field name="VAR" id="u$UKRp0^{NEbE3H?s5e?">watering can</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow><block type="screen_image_picker"><field name="img">img`
+. . . 6 . 
+. . 6 9 6 
+. 6 6 6 6 
+6 . 6 6 6 
+. . 6 6 6 
+`</field></block></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">Tool</field></shadow></value></block></value><next><block type="spritesetpos"><value name="sprite"><block type="variables_get"><field name="VAR" id="u$UKRp0^{NEbE3H?s5e?">watering can</field></block></value><value name="x"><shadow type="positionPicker"><field name="index">115</field></shadow></value><value name="y"><shadow type="positionPicker"><field name="index">10</field></shadow></value><next><block type="variables_set"><field name="VAR" id="]]__zve@*f=wBbB^Us%Y">hoe</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow><block type="screen_image_picker"><field name="img">img`
+. . e . . 
+. . e e . 
+. . e . e 
+. . e . . 
+. . e . . 
+. . e . . 
+. . e . . 
+. . e . . 
+`</field></block></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">Tool</field></shadow></value></block></value><next><block type="spritesetpos"><value name="sprite"><block type="variables_get"><field name="VAR" id="]]__zve@*f=wBbB^Us%Y">hoe</field></block></value><value name="x"><shadow type="positionPicker"><field name="index">138</field></shadow></value><value name="y"><shadow type="positionPicker"><field name="index">26</field></shadow></value><next><block type="variables_set"><field name="VAR" id="*Q!0Q_0XPM1Z3dGZ4#EV">harvester</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow><block type="screen_image_picker"><field name="img">img`
+. . b . . 
+. b b b . 
+. c b b . 
+. c b b . 
+. . c . . 
+. . c . . 
+. . b . . 
+. . . . . 
+`</field></block></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">Tool</field></shadow></value></block></value><next><block type="spritesetpos"><value name="sprite"><block type="variables_get"><field name="VAR" id="*Q!0Q_0XPM1Z3dGZ4#EV">harvester</field></block></value><value name="x"><shadow type="positionPicker"><field name="index">133</field></shadow></value><value name="y"><shadow type="positionPicker"><field name="index">75</field></shadow></value><next><block type="variables_set"><field name="VAR" id="sF=LNIF:jM7UMbpBz9in">seed bag</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow><block type="screen_image_picker"><field name="img">img`
+. . 7 . . . . . 
+. . . 7 7 . . . 
+. . b b b b . . 
+. . 1 1 1 . . . 
+. b b b b . . . 
+. b b b b b b . 
+. c b b b b c . 
+. . c c c c . . 
+`</field></block></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">Tool</field></shadow></value></block></value><next><block type="spritesetpos"><value name="sprite"><block type="variables_get"><field name="VAR" id="sF=LNIF:jM7UMbpBz9in">seed bag</field></block></value><value name="x"><shadow type="positionPicker"><field name="index">137</field></shadow></value><value name="y"><shadow type="positionPicker"><field name="index">44</field></shadow></value><next><block type="pxt_controls_for_of"><value name="VAR"><shadow type="variables_get_reporter"><field name="VAR" id="Ji*L2s1i3?3jhvW]n^mN">value</field></shadow></value><value name="LIST"><shadow type="variables_get"><field name="VAR" id="bpWhgw/=5Lms6.4#mNW*">list</field></shadow><block type="allOfKind"><value name="kind"><shadow type="spritekind"><field name="MEMBER">Tool</field></shadow></value></block></value><statement name="DO"><block type="spriteDataSetNumber"><value name="sprite"><block type="variables_get"><field name="VAR" id="Ji*L2s1i3?3jhvW]n^mN">value</field></block></value><value name="name"><shadow type="text"><field name="TEXT">x</field></shadow></value><value name="value"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="Sprite_blockCombine_get"><field name="property">Sprite.x</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="Ji*L2s1i3?3jhvW]n^mN">value</field></block></value></block></value><next><block type="spriteDataSetNumber"><value name="sprite"><block type="variables_get"><field name="VAR" id="Ji*L2s1i3?3jhvW]n^mN">value</field></block></value><value name="name"><shadow type="text"><field name="TEXT">y</field></shadow></value><value name="value"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="Sprite_blockCombine_get"><field name="property">Sprite.y</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="Ji*L2s1i3?3jhvW]n^mN">value</field></block></value></block></value></block></next></block></statement><next><block type="game_control_sprite"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get"><field name="VAR" id="m9)3waIb*lg%!2ODM*$)">Greg</field></block></value><next><block type="camerafollow"><value name="sprite"><block type="variables_get"><field name="VAR" id="m9)3waIb*lg%!2ODM*$)">Greg</field></block></value><next><block type="gamecountdown"><value name="duration"><shadow type="math_number"><field name="NUM">10</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="screen_image_picker" disabled="true" x="1190" y="30"><field name="img">img`
+. . . . . . . 1 1 . . 1 1 . . . 
+. . . . . . 1 1 3 . 1 1 3 . . . 
+. . . . . . 1 3 . 1 1 3 . . . . 
+. . . . . . 1 . . 1 . . . e . . 
+. . . . . . 1 1 1 1 1 . . e e . 
+. . . . . . 1 f 1 f 1 . . e . e 
+. . . . . . 1 1 1 1 1 . . e . . 
+. . . . 1 1 1 1 1 1 1 1 1 e . . 
+. . . 6 1 . 1 1 1 1 1 . . e . . 
+. . 6 9 6 . 1 1 1 1 1 . . e . . 
+. 6 6 6 6 . 1 1 1 1 1 . . e . . 
+6 . 6 6 6 . . 1 . . 1 . . . . . 
+. . 6 6 6 . . 1 . . 1 . . . . . 
+. . . . . . . 1 . . 1 . . . . . 
+. . . . . . 1 1 . 1 1 . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></block><block type="keyonevent" x="950" y="170"><field name="button">controller.A</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="variables_set"><field name="VAR" id="]lE,GzHVVuI^X/4DpK_c">currentTool</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spriteDataGetSprite"><value name="sprite"><block type="variables_get"><field name="VAR" id="$E%P?)#R2Y(J,1=!GybN">Greg's Right Hand</field></block></value><value name="name"><shadow type="text"><field name="TEXT">tool</field></shadow></value></block></value><next><block type="controls_if"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="variables_get"><field name="VAR" id="]lE,GzHVVuI^X/4DpK_c">currentTool</field></block></value><statement name="DO0"><block type="function_call"><mutation name="useTool" functionid="y7ix,IJns*33~O)AmvUt"><arg name="tool" id="V=nY$lAct?f2msbF1LCi" type="Sprite"/></mutation><value name="V=nY$lAct?f2msbF1LCi"><shadow type="variables_get"><field name="VAR" id="EzP71Dp#v*c6NUW/rlqN">mySprite</field></shadow><block type="variables_get"><field name="VAR" id="]lE,GzHVVuI^X/4DpK_c">currentTool</field></block></value></block></statement></block></next></block></statement></block><block type="gameupdate" x="1850" y="390"><statement name="HANDLER"><block type="Sprite_blockCombine_set"><field name="property">Sprite.x@set</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="j~3[:8CF+0FEMR7:86,p">Greg's Left Hand</field></block></value><value name="value"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="math_arithmetic"><field name="OP">ADD</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="Sprite_blockCombine_get"><field name="property">Sprite.left</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="m9)3waIb*lg%!2ODM*$)">Greg</field></block></value></block></value><value name="B"><shadow type="math_number"><field name="NUM">4</field></shadow></value></block></value><next><block type="Sprite_blockCombine_set"><field name="property">Sprite.y@set</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="j~3[:8CF+0FEMR7:86,p">Greg's Left Hand</field></block></value><value name="value"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="math_arithmetic"><field name="OP">ADD</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="Sprite_blockCombine_get"><field name="property">Sprite.top</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="m9)3waIb*lg%!2ODM*$)">Greg</field></block></value></block></value><value name="B"><shadow type="math_number"><field name="NUM">8</field></shadow></value></block></value><next><block type="Sprite_blockCombine_set"><field name="property">Sprite.x@set</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="$E%P?)#R2Y(J,1=!GybN">Greg's Right Hand</field></block></value><value name="value"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="math_arithmetic"><field name="OP">ADD</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="Sprite_blockCombine_get"><field name="property">Sprite.left</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="m9)3waIb*lg%!2ODM*$)">Greg</field></block></value></block></value><value name="B"><shadow type="math_number"><field name="NUM">13</field></shadow></value></block></value><next><block type="Sprite_blockCombine_set"><field name="property">Sprite.y@set</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="$E%P?)#R2Y(J,1=!GybN">Greg's Right Hand</field></block></value><value name="value"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="math_arithmetic"><field name="OP">ADD</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="Sprite_blockCombine_get"><field name="property">Sprite.top</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="m9)3waIb*lg%!2ODM*$)">Greg</field></block></value></block></value><value name="B"><shadow type="math_number"><field name="NUM">6</field></shadow></value></block></value></block></next></block></next></block></next></block></statement></block><block type="keyonevent" x="950" y="470"><field name="button">controller.B</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="variables_set"><field name="VAR" id="]lE,GzHVVuI^X/4DpK_c">currentTool</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spriteDataGetSprite"><value name="sprite"><block type="variables_get"><field name="VAR" id="j~3[:8CF+0FEMR7:86,p">Greg's Left Hand</field></block></value><value name="name"><shadow type="text"><field name="TEXT">tool</field></shadow></value></block></value><next><block type="controls_if"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="variables_get"><field name="VAR" id="]lE,GzHVVuI^X/4DpK_c">currentTool</field></block></value><statement name="DO0"><block type="function_call"><mutation name="useTool" functionid="y7ix,IJns*33~O)AmvUt"><arg name="tool" id="V=nY$lAct?f2msbF1LCi" type="Sprite"/></mutation><value name="V=nY$lAct?f2msbF1LCi"><shadow type="variables_get"><field name="VAR" id="EzP71Dp#v*c6NUW/rlqN">mySprite</field></shadow><block type="variables_get"><field name="VAR" id="]lE,GzHVVuI^X/4DpK_c">currentTool</field></block></value></block></statement></block></next></block></statement></block><block type="spritesoverlap" x="1830" y="810"><value name="HANDLER_DRAG_PARAM_sprite"><shadow type="argument_reporter_custom"><mutation typename="Sprite"/><field name="VALUE">sprite</field></shadow></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">Tool</field></shadow></value><value name="HANDLER_DRAG_PARAM_otherSprite"><shadow type="argument_reporter_custom"><mutation typename="Sprite"/><field name="VALUE">otherSprite</field></shadow></value><value name="otherKind"><shadow type="spritekind"><field name="MEMBER">Hand</field></shadow></value><statement name="HANDLER"><block type="variables_set"><field name="VAR" id="]lE,GzHVVuI^X/4DpK_c">currentTool</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spriteDataGetSprite"><value name="sprite"><block type="argument_reporter_custom"><mutation typename="Sprite"/><field name="VALUE">otherSprite</field></block></value><value name="name"><shadow type="text"><field name="TEXT">tool</field></shadow></value></block></value><next><block type="controls_if"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_operation"><field name="OP">AND</field><value name="A"><block type="variables_get"><field name="VAR" id="]lE,GzHVVuI^X/4DpK_c">currentTool</field></block></value><value name="B"><block type="logic_compare"><field name="OP">NEQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get"><field name="VAR" id="]lE,GzHVVuI^X/4DpK_c">currentTool</field></block></value><value name="B"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="argument_reporter_custom"><mutation typename="Sprite"/><field name="VALUE">sprite</field></block></value></block></value></block></value><statement name="DO0"><block type="spriteFollowOtherSprite"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="1" _input_init="true"></mutation><value name="sprite"><block type="variables_get"><field name="VAR" id="]lE,GzHVVuI^X/4DpK_c">currentTool</field></block></value><value name="speed"><shadow type="math_number"><field name="NUM">0</field></shadow></value><next><block type="Sprite_blockCombine_set"><field name="property">Sprite.x@set</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="]lE,GzHVVuI^X/4DpK_c">currentTool</field></block></value><value name="value"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spriteDataGetNumber"><value name="sprite"><block type="variables_get"><field name="VAR" id="]lE,GzHVVuI^X/4DpK_c">currentTool</field></block></value><value name="name"><shadow type="text"><field name="TEXT">x</field></shadow></value></block></value><next><block type="Sprite_blockCombine_set"><field name="property">Sprite.y@set</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="]lE,GzHVVuI^X/4DpK_c">currentTool</field></block></value><value name="value"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spriteDataGetNumber"><value name="sprite"><block type="variables_get"><field name="VAR" id="]lE,GzHVVuI^X/4DpK_c">currentTool</field></block></value><value name="name"><shadow type="text"><field name="TEXT">y</field></shadow></value></block></value><next><block type="Sprite_blockCombine_set"><field name="property">Sprite.vx@set</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="]lE,GzHVVuI^X/4DpK_c">currentTool</field></block></value><value name="value"><shadow type="math_number"><field name="NUM">0</field></shadow></value><next><block type="Sprite_blockCombine_set"><field name="property">Sprite.vy@set</field><value name="mySprite"><block type="variables_get"><field name="VAR" id="]lE,GzHVVuI^X/4DpK_c">currentTool</field></block></value><value name="value"><shadow type="math_number"><field name="NUM">0</field></shadow></value><next><block type="spritesetkind"><value name="sprite"><block type="variables_get"><field name="VAR" id="]lE,GzHVVuI^X/4DpK_c">currentTool</field></block></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">Tool</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></statement><next><block type="spriteFollowOtherSprite"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="1" _input_init="true"></mutation><value name="sprite"><block type="argument_reporter_custom"><mutation typename="Sprite"/><field name="VALUE">sprite</field></block></value><value name="target"><block type="argument_reporter_custom"><mutation typename="Sprite"/><field name="VALUE">otherSprite</field></block></value><value name="speed"><shadow type="math_number"><field name="NUM">100</field></shadow></value><next><block type="spriteDataSetSprite"><value name="sprite"><block type="argument_reporter_custom"><mutation typename="Sprite"/><field name="VALUE">otherSprite</field></block></value><value name="name"><shadow type="text"><field name="TEXT">tool</field></shadow></value><value name="value"><block type="argument_reporter_custom"><mutation typename="Sprite"/><field name="VALUE">sprite</field></block></value><next><block type="spritesetkind"><value name="sprite"><block type="argument_reporter_custom"><mutation typename="Sprite"/><field name="VALUE">sprite</field></block></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">HeldTool</field></shadow></value></block></next></block></next></block></next></block></next></block></statement></block><block type="gamecountdownevent" x="130" y="1390"><statement name="HANDLER"><block type="timer_background"><statement name="HANDLER"><block type="game_control_sprite"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="2" _input_init="true"></mutation><value name="sprite"><block type="variables_get"><field name="VAR" id="m9)3waIb*lg%!2ODM*$)">Greg</field></block></value><value name="vx"><shadow type="math_number"><field name="NUM">0</field></shadow></value><value name="vy"><shadow type="math_number"><field name="NUM">0</field></shadow></value><next><block type="colorStartFade"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="1" _input_init="true"></mutation><field name="start">color.originalPalette</field><field name="end">color.Black</field><value name="duration"><shadow type="timePicker"><field name="ms">2000</field></shadow></value><next><block type="colorPauseUntilFadeDone"><next><block type="spritesetimage"><value name="sprite"><block type="variables_get"><field name="VAR" id="m9)3waIb*lg%!2ODM*$)">Greg</field></block></value><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. f f f . . . . . . . . . . . . 
+. . . f . . . . . . . . . . . . 
+. . f . . . . . . . . . . . . . 
+. f . . . . f f f . . . . . . . 
+. f f f . . . . f . . . . . . . 
+. . . . . . . f . . . . . . . . 
+. . . . . . f . . . . . . . . . 
+. . . . . . f f f . . . . . . . 
+. 1 . . . . 1 1 1 1 1 1 1 1 1 . 
+. 1 . . . . 1 1 1 1 f 1 1 3 1 1 
+. 1 . . . . 1 1 1 1 1 1 1 1 3 1 
+. 1 1 1 1 1 1 1 1 1 1 1 1 3 1 . 
+. . . . . . . . . . . . . . 3 1 
+. . . . . . . . . . . . . . . 1 
+. . . . . . . . . . . . . . . . 
+`</field></shadow></value><next><block type="tilemap_replaceAllTiles"><value name="from"><shadow type="tileset_tile_picker"><field name="tile">myTiles.tile2</field></shadow></value><value name="to"><shadow type="tileset_tile_picker"><field name="tile">myTiles.tile4</field></shadow></value><next><block type="tilemap_replaceAllTiles"><value name="from"><shadow type="tileset_tile_picker"><field name="tile">myTiles.tile5</field></shadow></value><value name="to"><shadow type="tileset_tile_picker"><field name="tile">myTiles.tile6</field></shadow></value><next><block type="tilemap_replaceAllTiles"><value name="from"><shadow type="tileset_tile_picker"><field name="tile">myTiles.tile7</field></shadow></value><value name="to"><shadow type="tileset_tile_picker"><field name="tile">myTiles.tile8</field></shadow></value><next><block type="colorStartFade"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="1" _input_init="true"></mutation><field name="start">color.Black</field><field name="end">color.originalPalette</field><value name="duration"><shadow type="timePicker"><field name="ms">2000</field></shadow></value><next><block type="colorPauseUntilFadeDone"><next><block type="game_control_sprite"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="variables_get"><field name="VAR" id="m9)3waIb*lg%!2ODM*$)">Greg</field></block></value><value name="vx"><shadow type="math_number"><field name="NUM">100</field></shadow></value><value name="vy"><shadow type="math_number"><field name="NUM">0</field></shadow></value><next><block type="spritesetimage"><value name="sprite"><block type="variables_get"><field name="VAR" id="m9)3waIb*lg%!2ODM*$)">Greg</field></block></value><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. f f f . . . . . . . . . . . . 
+. . . f . . . . . . . . . . . . 
+. . f . . . . . . . . . . . . . 
+. f . . . . f f f . . . . . . . 
+. f f f . . . . f . . . . . . . 
+. . . . . . . f . . . . . . . . 
+. . . . . . f . . . . . . . . . 
+. . . . . . f f f . . . . . . . 
+. 1 . . . . 1 1 1 1 1 1 1 1 1 . 
+. 1 . . . . 1 1 1 1 f 1 1 3 1 1 
+. 1 . . . . 1 1 1 1 1 1 1 1 3 1 
+. 1 1 1 1 1 1 1 1 1 1 1 1 3 1 . 
+. . . . . . . . . . . . . . 3 1 
+. . . . . . . . . . . . . . . 1 
+. . . . . . . . . . . . . . . . 
+`</field></shadow><block type="screen_image_picker"><field name="img">img`
+. . . . . . . 1 1 . . 1 1 . . . 
+. . . . . . 1 1 3 . 1 1 3 . . . 
+. . . . . . 1 3 . 1 1 3 . . . . 
+. . . . . . 1 . . 1 . . . . . . 
+. . . . . . 1 1 1 1 1 . . . . . 
+. . . . . . 1 f 1 f 1 . . . . . 
+. . . . . . 1 1 1 1 1 . . 1 . . 
+. . . . 1 1 1 1 1 1 1 1 1 1 . . 
+. . . . 1 . 1 1 1 1 1 . . . . . 
+. . . . . . 1 1 1 1 1 . . . . . 
+. . . . . . 1 1 1 1 1 . . . . . 
+. . . . . . . 1 . . 1 . . . . . 
+. . . . . . . 1 . . 1 . . . . . 
+. . . . . . . 1 . . 1 . . . . . 
+. . . . . . 1 1 . 1 1 . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></block></value><next><block type="gamecountdown"><value name="duration"><shadow type="math_number"><field name="NUM">10</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></statement></block><block type="function_definition" x="1670" y="1650"><mutation name="useTool" functionid="y7ix,IJns*33~O)AmvUt"><arg name="tool" id="V=nY$lAct?f2msbF1LCi" type="Sprite"/></mutation><field name="function_name">useTool</field><value name="V=nY$lAct?f2msbF1LCi"><shadow type="argument_reporter_custom"><mutation typename="Sprite"/><field name="VALUE">tool</field></shadow></value><statement name="STACK"><block type="controls_if"><mutation elseif="3" else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="argument_reporter_custom"><mutation typename="Sprite"/><field name="VALUE">tool</field></block></value><value name="B"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get"><field name="VAR" id="u$UKRp0^{NEbE3H?s5e?">watering can</field></block></value></block></value><statement name="DO0"><block type="controls_if"><mutation elseif="2"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="spritetileat"><field name="direction">TileDirection.Center</field><value name="this"><block type="variables_get"><field name="VAR" id="m9)3waIb*lg%!2ODM*$)">Greg</field></block></value><value name="tile"><shadow type="tileset_tile_picker"><field name="tile">myTiles.tile3</field></shadow></value></block></value><statement name="DO0"><block type="mapsettileat"><value name="tile"><shadow type="tileset_tile_picker"><field name="tile">myTiles.tile2</field></shadow></value><value name="loc"><shadow type="mapgettile"><value name="col"><shadow type="math_number"><field name="NUM">0</field></shadow></value><value name="row"><shadow type="math_number"><field name="NUM">0</field></shadow></value></shadow><block type="tilemap_locationOfSprite"><value name="s"><block type="variables_get"><field name="VAR" id="m9)3waIb*lg%!2ODM*$)">Greg</field></block></value></block></value></block></statement><value name="IF1"><block type="spritetileat"><field name="direction">TileDirection.Center</field><value name="this"><block type="variables_get"><field name="VAR" id="m9)3waIb*lg%!2ODM*$)">Greg</field></block></value><value name="tile"><shadow type="tileset_tile_picker"><field name="tile">myTiles.tile4</field></shadow></value></block></value><statement name="DO1"><block type="mapsettileat"><value name="tile"><shadow type="tileset_tile_picker"><field name="tile">myTiles.tile5</field></shadow></value><value name="loc"><shadow type="mapgettile"><value name="col"><shadow type="math_number"><field name="NUM">0</field></shadow></value><value name="row"><shadow type="math_number"><field name="NUM">0</field></shadow></value></shadow><block type="tilemap_locationOfSprite"><value name="s"><block type="variables_get"><field name="VAR" id="m9)3waIb*lg%!2ODM*$)">Greg</field></block></value></block></value></block></statement><value name="IF2"><block type="spritetileat"><field name="direction">TileDirection.Center</field><value name="this"><block type="variables_get"><field name="VAR" id="m9)3waIb*lg%!2ODM*$)">Greg</field></block></value><value name="tile"><shadow type="tileset_tile_picker"><field name="tile">myTiles.tile6</field></shadow></value></block></value><statement name="DO2"><block type="mapsettileat"><value name="tile"><shadow type="tileset_tile_picker"><field name="tile">myTiles.tile7</field></shadow></value><value name="loc"><shadow type="mapgettile"><value name="col"><shadow type="math_number"><field name="NUM">0</field></shadow></value><value name="row"><shadow type="math_number"><field name="NUM">0</field></shadow></value></shadow><block type="tilemap_locationOfSprite"><value name="s"><block type="variables_get"><field name="VAR" id="m9)3waIb*lg%!2ODM*$)">Greg</field></block></value></block></value></block></statement></block></statement><value name="IF1"><block type="logic_compare"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="argument_reporter_custom"><mutation typename="Sprite"/><field name="VALUE">tool</field></block></value><value name="B"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get"><field name="VAR" id="]]__zve@*f=wBbB^Us%Y">hoe</field></block></value></block></value><statement name="DO1"><block type="controls_if"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="spritetileat"><field name="direction">TileDirection.Center</field><value name="this"><block type="variables_get"><field name="VAR" id="m9)3waIb*lg%!2ODM*$)">Greg</field></block></value><value name="tile"><shadow type="tileset_tile_picker"><field name="tile">myTiles.tile0</field></shadow></value></block></value><statement name="DO0"><block type="mapsettileat"><value name="tile"><shadow type="tileset_tile_picker"><field name="tile">myTiles.tile1</field></shadow></value><value name="loc"><shadow type="mapgettile"><value name="col"><shadow type="math_number"><field name="NUM">0</field></shadow></value><value name="row"><shadow type="math_number"><field name="NUM">0</field></shadow></value></shadow><block type="tilemap_locationOfSprite"><value name="s"><block type="variables_get"><field name="VAR" id="m9)3waIb*lg%!2ODM*$)">Greg</field></block></value></block></value></block></statement></block></statement><value name="IF2"><block type="logic_compare"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="argument_reporter_custom"><mutation typename="Sprite"/><field name="VALUE">tool</field></block></value><value name="B"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get"><field name="VAR" id="sF=LNIF:jM7UMbpBz9in">seed bag</field></block></value></block></value><statement name="DO2"><block type="controls_if"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="spritetileat"><field name="direction">TileDirection.Center</field><value name="this"><block type="variables_get"><field name="VAR" id="m9)3waIb*lg%!2ODM*$)">Greg</field></block></value><value name="tile"><shadow type="tileset_tile_picker"><field name="tile">myTiles.tile1</field></shadow></value></block></value><statement name="DO0"><block type="mapsettileat"><value name="tile"><shadow type="tileset_tile_picker"><field name="tile">myTiles.tile3</field></shadow></value><value name="loc"><shadow type="mapgettile"><value name="col"><shadow type="math_number"><field name="NUM">0</field></shadow></value><value name="row"><shadow type="math_number"><field name="NUM">0</field></shadow></value></shadow><block type="tilemap_locationOfSprite"><value name="s"><block type="variables_get"><field name="VAR" id="m9)3waIb*lg%!2ODM*$)">Greg</field></block></value></block></value></block></statement></block></statement><value name="IF3"><block type="logic_compare"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="argument_reporter_custom"><mutation typename="Sprite"/><field name="VALUE">tool</field></block></value><value name="B"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get"><field name="VAR" id="*Q!0Q_0XPM1Z3dGZ4#EV">harvester</field></block></value></block></value><statement name="DO3"><block type="controls_if"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="spritetileat"><field name="direction">TileDirection.Center</field><value name="this"><block type="variables_get"><field name="VAR" id="m9)3waIb*lg%!2ODM*$)">Greg</field></block></value><value name="tile"><shadow type="tileset_tile_picker"><field name="tile">myTiles.tile8</field></shadow></value></block></value><statement name="DO0"><block type="mapsettileat"><value name="tile"><shadow type="tileset_tile_picker"><field name="tile">myTiles.tile1</field></shadow></value><value name="loc"><shadow type="mapgettile"><value name="col"><shadow type="math_number"><field name="NUM">0</field></shadow></value><value name="row"><shadow type="math_number"><field name="NUM">0</field></shadow></value></shadow><block type="tilemap_locationOfSprite"><value name="s"><block type="variables_get"><field name="VAR" id="m9)3waIb*lg%!2ODM*$)">Greg</field></block></value></block></value><next><block type="hudChangeScoreBy"><value name="value"><shadow type="math_number"><field name="NUM">1000</field></shadow></value></block></next></block></statement></block></statement></block></statement></block></xml>
